@@ -1,20 +1,14 @@
-h5 { 
+h6  { 
     text-align: left;
-    color: white
-
-
+    color: white; 
+    font-style: italic;
 }
-h6 {
+p
+{vertical-align: middle;
     text-align: center;
 }
 
 h1 {text-align: center;
     color: white;
-    font-size: x-large;
-
-}
-p {text-align: center;
-    border-width: 2px;
-
-
+    font-style:unset;
 }
