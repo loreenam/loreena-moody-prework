@@ -1,9 +1,9 @@
-h6  { 
+h5 { 
     text-align: left;
     color: white; 
     
 }
-p
+h6
 {vertical-align: middle;
     text-align: center;
 }
@@ -11,4 +11,8 @@ p
 h1 {text-align: center;
     color: white;
     font-style:unset;
+}
+
+p{
+    text-align: center;
 }
