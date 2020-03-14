@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        img {
+          float: left;
+          border: 1px dotted black;
+          margin: 0px 0px 15px 20px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container-fluid";>
+    
+    <header style="background-color:#ffffff;" class="navbar"></header>
+    <nav class="navbar navbar-expand-sm navbar-bg-light">
+        <a style="background-color: teal;" p class="text-white class="col-xs-4 navbar-brand">Loreena Moody</a>
+        <ul class=" col-xs-4 navbar-nav mx-auto">
+          <ul class="nav-item"><a class="nav-link">About</a></ul>
+          <ul class="nav-item"><a class="nav-link">Contact</a></ul>
+          <ul class="nav-item"><a class="nav-link">Portfolio</a></ul>
+        </ul>
+        
+      </nav>
+      <div class="galleries" id="gallery-close">
+        <input name="input-gallery" id="input-gallery-null" type="radio" onclick="location.href='#gallery-close';" checked="checked" />
+        <input name="input-gallery" id="input-gallery-1" type="radio" onclick="location.href='#gallery-open';" />
+        <input name="input-gallery" id="input-gallery-2" type="radio" onclick="location.href='#gallery-open';" />
+        <input name="input-gallery" id="input-gallery-3" type="radio" onclick="location.href='#gallery-open';" />
+        <input name="input-gallery" id="input-gallery-4" type="radio" onclick="location.href='#gallery-open';" />
+        
+        <label for="input-gallery-1" class="gallery-1">
+            <p>Pure CSS</p>				
+        </label><label for="input-gallery-2" class="gallery-2">
+            <p>Pure CSS</p>
+        </label><label for="input-gallery-3" class="gallery-3">
+            <p>Pure CSS</p>
+        </label><label for="input-gallery-4" class="gallery-4">
+            <p>Pure CSS</p>
+        </label>
+    
+        <ul class="gallery" id="gallery-open">
+            <li class="gallery-1">
+                <label for="input-gallery-null" class="close-gallery"></label>
+                <h1>Pure CSS</h1>
+            </li>
+            <li class="gallery-2">
+                <label for="input-gallery-null" class="close-gallery"></label>
+                <h1>Pure CSS</h1>
+            </li>
+            <li class="gallery-3">
+                <label for="input-gallery-null" class="close-gallery"></label>
+                <h1>Pure CSS</h1>
+            </li>
+            <li class="gallery-4">
+                <label for="input-gallery-null" class="close-gallery"></label>
+                <h1>Pure CSS</h1>
+            </li>					
+        </ul>
+    </div><!-- galleries -->   
