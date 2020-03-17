@@ -32,7 +32,8 @@ header{
     font-family: fantasy;
 
 }
-.rightGuess{ border: 5px solid whitesmoke;
+.rightword{
+     border: 5px solid whitesmoke;
     font-size: 20px;
     text-align: center;
     margin:0 auto;
@@ -42,23 +43,15 @@ header{
     font-family: fantasy;
 
 }
-.wrongGuess{
+.wrongword{
     border: 5px solid whitesmoke;
     font-size: 20px;
     text-align: center;
     margin:0 auto;
-    height:40px ;
+    height:40px;
     width: 30%;
     background-color: pink;
     font-family: fantasy;
 }
 
-p{
-    text-decoration: coral;
-    text-align: center;
-    font-size: large;
-}
 
-body{
-    background-color: E1ADO1 ;
-}
