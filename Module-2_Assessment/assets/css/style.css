@@ -1,13 +1,58 @@
+.container{
+    padding-top: 20%;
+    padding-bottom: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color:peachpuff ;
+    height: 60%;
+    width: 100%;
+}
+
+
 header{
-    border: 1px solid whitesmoke;
+    border: 5px solid whitesmoke;
     font-size: 30px;
     text-align: center;
+    margin:0 auto;
     height:100px ;
-    width: 300px;
+    width: 60%;
     background-color: pink;
     font-family: fantasy;
 
 }
+
+.underscores{
+    border: 5px solid whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    margin:0 auto;
+    height:50px ;
+    width: 50%;
+    background-color: pink;
+    font-family: fantasy;
+
+}
+.rightGuess{ border: 5px solid whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin:0 auto;
+    height:40px ;
+    width: 30%;
+    background-color: pink;
+    font-family: fantasy;
+
+}
+.wrongGuess{
+    border: 5px solid whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin:0 auto;
+    height:40px ;
+    width: 30%;
+    background-color: pink;
+    font-family: fantasy;
+}
+
 p{
     text-decoration: coral;
     text-align: center;
