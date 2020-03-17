@@ -20,9 +20,24 @@ const word = [
 // Choose random word
 let randNum= Math.floor(Math.random() * word.length );
 let chosenWord= word[randNum];
+console.log(chosenWord); 
+let underScore = [];
 console.log(chosenWord);
 // Create underscores based on length of word
+let generateUnderscore = () => {
+    for (let i = 0; i < chosenWord.length; i++) {
+        underScore.push("_");
+    } 
+    return underScore;
+}
+console.log(generateUnderscore());
 // Get a guess from the user
+document.addEventListener("keypress",(event) =>{
+    let keycode = event.keyCode;
+    let keyword = String.fromCharCode(keycode);
+    console.log(keyword);
+});
+
 // Show the player progress
 // Update the game state with the guess
 // Check if guess is right
