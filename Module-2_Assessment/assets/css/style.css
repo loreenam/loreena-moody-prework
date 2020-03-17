@@ -19,6 +19,10 @@ header{
     background-color: pink;
     font-family: fantasy;
 
+
+}
+p{
+    font-size: 10px;
 }
 
 .underscores{
@@ -32,7 +36,7 @@ header{
     font-family: fantasy;
 
 }
-.rightword{
+.rightguess{
      border: 5px solid whitesmoke;
     font-size: 20px;
     text-align: center;
@@ -43,7 +47,7 @@ header{
     font-family: fantasy;
 
 }
-.wrongword{
+.wrongguess{
     border: 5px solid whitesmoke;
     font-size: 20px;
     text-align: center;
