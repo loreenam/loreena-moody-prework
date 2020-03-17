@@ -1,5 +1,5 @@
 // Create an array of words
-const word = [ 
+var word = [ 
 	"April",
 	"breeze",
 	"showers",
@@ -16,22 +16,21 @@ const word = [
 	"caterpillar",
 	"blooms",
     ];
-    
+
 // Choose random word
 let randNum= Math.floor(Math.random() * word.length );
-let chosenWord = word[randNum];
-let rightword = []
-let wrongword = []
-console.log(chosenWord); 
-
+let choosenWord = word[randNum];
+let rightguess = []
+let wrongguess= []
+console.log(choosenWord); 
 let underScore = [];
 
 
 //Game conditions
-console.log(chosenWord);
+console.log(choosenWord);
 // Create underscores based on length of word
 let generateUnderscore = () => {
-    for (let i = 0; i < chosenWord.length; i++) {
+    for (let i = 0; i < choosenWord.length; i++) {
         underScore.push("_");
     } 
     return underScore;
@@ -39,15 +38,13 @@ let generateUnderscore = () => {
 console.log(generateUnderscore());
 // Get guess from the user
 document.addEventListener("keypress",(event) => {
-    let keycode = event.keyCode;
-    let keyword = String.fromCharCode(keycode);
-
-    if(chosenWord.indexOf(keyword)> -1) {
-      //add to right words array
-        rightword.push(keyword);
-        console.log(right);
-        wrongword.push(left);
+    let keyword = String.fromCharCode(event.keyCode);
+    if(keycode.object(choosenWord) > -1) {
+        console.log(true);
+        
     }
+
+    
 
 });;
 
