@@ -15,13 +15,19 @@ const word = [
 	"lamb",
 	"caterpillar",
 	"blooms",
-	];
-
+    ];
+    
 // Choose random word
 let randNum= Math.floor(Math.random() * word.length );
-let chosenWord= word[randNum];
+let chosenWord = word[randNum];
+let rightword = []
+let wrongword = []
 console.log(chosenWord); 
+
 let underScore = [];
+
+
+//Game conditions
 console.log(chosenWord);
 // Create underscores based on length of word
 let generateUnderscore = () => {
@@ -31,12 +37,19 @@ let generateUnderscore = () => {
     return underScore;
 }
 console.log(generateUnderscore());
-// Get a guess from the user
-document.addEventListener("keypress",(event) =>{
+// Get guess from the user
+document.addEventListener("keypress",(event) => {
     let keycode = event.keyCode;
     let keyword = String.fromCharCode(keycode);
-    console.log(keyword);
-});
+
+    if(chosenWord.indexOf(keyword)> -1) {
+      //add to right words array
+        rightword.push(keyword);
+        console.log(right);
+        wrongword.push(left);
+    }
+
+});;
 
 // Show the player progress
 // Update the game state with the guess
