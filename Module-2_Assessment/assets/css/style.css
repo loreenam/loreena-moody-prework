@@ -1,0 +1,19 @@
+header{
+    border: 1px solid whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    height:100px ;
+    width: 300px;
+    background-color: pink;
+    font-family: fantasy;
+
+}
+p{
+    text-decoration: coral;
+    text-align: center;
+    font-size: large;
+}
+
+body{
+    background-color: E1ADO1 ;
+}
