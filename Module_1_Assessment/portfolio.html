@@ -6,11 +6,10 @@
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
-        img {
-          float: left;
-          border: 1px dotted black;
-          margin: 0px 0px 15px 20px;
+        h2{
+            text-decoration-color: #ffffff;
         }
+        
         .footer {
           position: fixed;
           left: 0;
@@ -44,42 +43,35 @@
         </ul>
         
       </nav>
-      <div class="galleries" id="gallery-close">
-        <input name="input-gallery" id="input-gallery-null" type="radio" onclick="location.href='#gallery-close';" checked="checked" />
-        <input name="input-gallery" id="input-gallery-1" type="radio" onclick="location.href='#gallery-open';" />
-        <input name="input-gallery" id="input-gallery-2" type="radio" onclick="location.href='#gallery-open';" />
-        <input name="input-gallery" id="input-gallery-3" type="radio" onclick="location.href='#gallery-open';" />
-        <input name="input-gallery" id="input-gallery-4" type="radio" onclick="location.href='#gallery-open';" />
-        
-        <label for="input-gallery-1" class="gallery-1">
-            <p>Pure CSS</p>				
-        </label><label for="input-gallery-2" class="gallery-2">
-            <p>Pure CSS</p>
-        </label><label for="input-gallery-3" class="gallery-3">
-            <p>Pure CSS</p>
-        </label><label for="input-gallery-4" class="gallery-4">
-            <p>Pure CSS</p>
-        </label>
+      <h2 text-color="">Portfolio </h2>
+    
     
         <ul class="gallery" id="gallery-open">
             <li class="gallery-1">
-                <label for="input-gallery-null" class="close-gallery"></label>
-                <h1>Pure CSS</h1>
+                <label background-color="teal"for="input-gallery-null" class="close-gallery"></label>
+                <h5>Bike</h5>
+                <img src="bike.jpeg" alt="Bike">
             </li>
             <li class="gallery-2">
                 <label for="input-gallery-null" class="close-gallery"></label>
-                <h1>Pure CSS</h1>
+                <h5>Dog</h5>
+                <img src="dog.jpeg" alt="Dog">
             </li>
             <li class="gallery-3">
                 <label for="input-gallery-null" class="close-gallery"></label>
-                <h1>Pure CSS</h1>
+                <h5>Headphones</h5>
+                <img src="headphones.jpeg" alt="Headphones" >
             </li>
             <li class="gallery-4">
                 <label for="input-gallery-null" class="close-gallery"></label>
-                <h1>Pure CSS</h1>
-            </li>					
+                <h5>Lady</h5>
+                <img src="ladyk.jpeg" alt="Lady">
+                
+            </li>
+
         </ul>
-    </div><!-- galleries --> 
+
+    </div> 
     <div class="footer">
         <footer>Copyright</footer>
     </div> 
