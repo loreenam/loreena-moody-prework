@@ -1,0 +1,12 @@
+flow charting software didnt save propely.
+
+        Start
+        email address to sign up
+            input email address
+        valid email             invalid email
+                                    back up to input valid email
+    submit pressed
+    goes to stored valid emails 
+
+    send newsletter to clients on the site
+        render email list that was submitted by clients
