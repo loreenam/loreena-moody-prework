@@ -1,0 +1,23 @@
+//Loreena
+
+Letters are visible when typed out and typing sounds are heard.
+
+prompt the wrong letter and the letter will got to wrong guess array. The letter will display in the box labeled wrong box.
+Input the right letter and it will go in the right guess array and on the correct space on the underscore.
+
+There are 6 guesses that go to will go to the wrong box .
+There is a counter that counts down the remaining number of guesses.
+ When all 6 have been used an alert will pop up saying You Lose!
+The game will clear out and a new word will be randomly chosen. 
+
+
+Each correct guess the right box will alert Right!
+The right letters appear in the appropriate underscore
+If the word is guessed before 6 guesses then an alert will appear that says WINNER!
+Sound effect of a party favor horn when user wins
+Counter going up for number of wins
+Game randomly picks another word
+
+(html
+image of tulips  on either side of the game name.)
+ 
